@@ -1,1 +1,61 @@
 @import 'fonts';
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0
+}
+
+html,
+body {
+   overflow-x: hidden;
+   font: 90%/1.6 'Merriweather', serif !important;
+
+
+}
+
+html {
+   line-height: 1.5;
+   color: rgba(0,0,0,0.87);
+}
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Oswald', sans-serif; line-height: calc(1.1em + 0.5vw); margin: .8em 0 .3em 0;}
+
+@media only screen and (min-width: 0) {
+  html {
+      font-size: 14px;
+  }
+}
+
+
+.btn-oow{
+  background-color: #FF1744;
+  color:#fff
+}
+
+.btn-oow:hover{
+  color:#474b4c;
+  transition: all .5s ease-in-out ;
+}
+
+.navbar-light .navbar-toggler::after{
+  content: " +";
+  font-weight: bold;
+
+}
+.nav-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .40em
+
+}
+
+@media(max-width:567px){
+  .navbar-brand img {
+      padding-right: 80px
+  }
+
+}

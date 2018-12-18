@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 158 91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff1744;
+        font-size: 77px;
+        font-family: Stencil;
+      }
+
+      .cls-2 {
+        fill: #414141;
+        font-size: 63px;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #ff1744;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="Group_179" data-name="Group 179" transform="translate(-197 -6)">
+    <text id="Oow" class="cls-1" transform="translate(214 76)"><tspan x="0" y="0">O</tspan><tspan class="cls-2" y="0">ow</tspan></text>
+    <path id="Path_67" data-name="Path 67" class="cls-3" d="M0,51.795V71.419H83V0H0V10.295" transform="translate(283 85.709) rotate(180)"/>
+  </g>
+</svg>

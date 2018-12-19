@@ -21,7 +21,9 @@ html {
    color: rgba(0,0,0,0.87);
 }
 
-h1, h2, h3, h4, h5, h6 {font-family: 'Oswald', sans-serif; line-height: calc(1.1em + 0.5vw); margin: .8em 0 .3em 0;}
+h1, h2, h3, h4, h5, h6 { line-height: calc(1.1em + 0.5vw);
+                         margin: .8em 0 .3em 0;
+                       }
 
 @media only screen and (min-width: 0) {
   html {
@@ -30,32 +32,72 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Oswald', sans-serif; line-height: calc(1.1
 }
 
 
+$mainColor : hsla(348, 100%, 55%, 1);
+
+/* start nav */
 .btn-oow{
-  background-color: #FF1744;
+  background-color: $mainColor;
   color:#fff
 }
 
-.btn-oow:hover{
+.btn-oow:hover,
+.btn-oow:focus,{
   color:#474b4c;
   transition: all .5s ease-in-out ;
+}
+
+.oow{
+  color:$mainColor
+}
+
+.oow:hover,
+.oow:focus{
+  color:#474b4c;
+  border-color: $mainColor;
 }
 
 .navbar-light .navbar-toggler::after{
   content: " +";
   font-weight: bold;
-
 }
+
 .nav-item{
   display: flex;
   justify-content: center;
   align-items: center;
   padding: .40em
-
 }
 
+/* Media Query */
+@media(min-width:768px){
+  button{
+      margin-left: calc(30em - 1.5em);
+  }
+}
 @media(max-width:567px){
   .navbar-brand img {
       padding-right: 80px
   }
-
 }
+/* End Nav */
+
+
+/* start header */
+.header {
+background-image: url("../img/home.png");
+background-size: cover;
+min-height:  100vh - 11.1vh;
+}
+
+/* Media Query */
+@media(max-width:567px){
+  .header {
+    min-height:  34vh;
+  }
+}
+@media(min-width:568px) and (max-width:992px){
+  .header {
+    min-height:  70vh;
+  }
+}
+/* End Header */

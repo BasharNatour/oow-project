@@ -16,7 +16,7 @@
 
 .btn-oow:hover,
 .btn-oow:focus {
-  color: #474b4c;
+  color: #1C3024;
   transition: all 0.5s ease-in-out;
 }
 
@@ -26,7 +26,7 @@
 
 .oow:hover,
 .oow:focus {
-  color: #474b4c;
+  color: #1C3024;
   border-color: #ff1a47;
 }
 
@@ -122,6 +122,7 @@ html,
 body {
   overflow-x: hidden;
   font: 90%/1.6 "Merriweather", serif !important;
+  height: 5000px;
 }
 
 html {
@@ -137,6 +138,11 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3.2rem;
+  line-height: 110%;
+}
+
+h2 {
+  font-size: 2.56rem;
   line-height: 110%;
 }
 
@@ -161,7 +167,31 @@ h1 {
   color: #fff;
 }
 
+.text-website-color {
+  color: #ff1a47;
+}
+
 /* css Global */
 /* Global */
+/* start About */
+/* End About */
+.about {
+  background-color: #fff;
+  height: 100vh;
+  padding-top: 100px;
+}
+.about .about-text {
+  padding-top: 100px;
+}
+.about .about-image img {
+  width: 100%;
+}
+
+.about-text p {
+  font-size: 1.5vw;
+  color: #757575;
+  padding-top: 15px;
+  font-weight: 200;
+}
 
 /*# sourceMappingURL=style.css.map */

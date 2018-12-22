@@ -9,15 +9,15 @@
   -moz-box-sizing: border-box;
    box-sizing: border-box;
    padding: 0;
-   margin: 0
+   margin: 0;
+
 }
 
 html,
 body {
    overflow-x: hidden;
    font: 90%/1.6 'Merriweather', serif !important;
-
-
+   height: 5000px
 }
 
 html {
@@ -33,7 +33,13 @@ h1, h2, h3, h4, h5, h6 { line-height: calc(1.1em + 0.5vw);
  h1 {
        font-size: 3.2rem;
        line-height: 110%;
-   }
+}
+
+ h2 {
+          font-size: 2.56rem;
+          line-height: 110%;
+ }
+
 
 @media only screen and (min-width: 0) {
   html {
@@ -61,6 +67,36 @@ h1, h2, h3, h4, h5, h6 { line-height: calc(1.1em + 0.5vw);
 .text-color{
   color : $mainColorText;
 }
+
+.text-website-color{
+  color : $mainColor;
+
+}
 /* css Global */
 
 /* Global */
+
+
+/* start About */
+
+/* End About */
+.about{
+  background-color: #fff;
+  height: 100vh;
+  padding-top: 100px;
+  .about-text{
+    padding-top: 100px;
+  }
+  .about-image img{
+    width: 100%;
+
+  }
+}
+
+.about-text p{
+    font-size: 1.5vw;
+    color: #757575;
+    padding-top: 15px;
+    font-weight: 200;
+
+}

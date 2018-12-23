@@ -109,6 +109,129 @@
   }
 }
 /* End Header */
+/* start About */
+.heart {
+  width: 200px;
+  position: absolute;
+  top: 170vh;
+  left: -3vw;
+}
+
+.pallown {
+  width: 150px;
+  position: absolute;
+  top: 193vh;
+  right: 6.5vw;
+}
+
+.about {
+  background-color: #fff;
+  height: 100vh;
+}
+.about .about-text {
+  padding-top: 180px;
+}
+.about .about-image img {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.about-text p {
+  font-size: 1.8em;
+  color: #757575;
+  padding-top: 15px;
+  font-weight: 200;
+}
+
+/* media */
+@media (max-width: 567px) {
+  .about {
+    background-color: #fff;
+    height: 70vh;
+  }
+  .about .about-text {
+    padding-top: 25px;
+  }
+  .about .about-text h2 {
+    font-size: 1.3em;
+  }
+  .about .about-text p {
+    font-size: 0.95em;
+  }
+  .about .about-image img {
+    padding-top: 25px;
+  }
+}
+@media (min-width: 568px) and (max-width: 992px) {
+  .about {
+    background-color: #fff;
+  }
+  .about .about-text {
+    padding-top: 50px;
+  }
+  .about .about-image img {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 992px) {
+  .heart,
+.pallown {
+    display: none;
+  }
+}
+/* media */
+/* End About */
+/* Start Ideas */
+.ideas {
+  margin-top: 50px;
+  background: #FAFAFA;
+  min-height: 100vh;
+}
+.ideas .ideas-text {
+  padding-top: 250px;
+}
+.ideas .ideas-text p {
+  font-size: 1.8em;
+  color: #757575;
+  font-weight: 200;
+  padding-top: 15px;
+}
+
+.ideas-img img {
+  width: 100%;
+  padding-top: 170px;
+  padding-right: 10em;
+}
+
+@media (min-width: 568px) and (max-width: 992px) {
+  .ideas-img img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .ideas .ideas-text {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 567px) {
+  .ideas {
+    min-height: 70vh;
+  }
+  .ideas .ideas-text {
+    padding-top: 50px;
+  }
+  .ideas .ideas-text h2 {
+    font-size: 1.3em;
+  }
+  .ideas .ideas-text p {
+    font-size: 0.95em;
+  }
+  .ideas .ideas-img img {
+    padding-right: 0;
+    padding-top: 25px;
+  }
+}
+/* End Ideas */
 /* Global */
 * {
   -webkit-box-sizing: border-box;
@@ -173,25 +296,5 @@ h2 {
 
 /* css Global */
 /* Global */
-/* start About */
-/* End About */
-.about {
-  background-color: #fff;
-  height: 100vh;
-  padding-top: 100px;
-}
-.about .about-text {
-  padding-top: 100px;
-}
-.about .about-image img {
-  width: 100%;
-}
-
-.about-text p {
-  font-size: 1.5vw;
-  color: #757575;
-  padding-top: 15px;
-  font-weight: 200;
-}
 
 /*# sourceMappingURL=style.css.map */

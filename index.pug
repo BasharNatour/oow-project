@@ -35,10 +35,9 @@ html(lang="en")
                           a(href="#" role="button" class="btn oow" aria-pressed="true") LOG IN
                                                     
                         li(class="nav-item")
-                          a(href="#" class="btn btn-oow" role="button" aria-pressed="true") SING UP
-                                                    
-                       
+                          a(href="#" class="btn btn-oow" role="button" aria-pressed="true") SING UP         
           <!-- End nav -->
+          
           <!-- start header -->
           .header
             .container
@@ -47,21 +46,38 @@ html(lang="en")
                 .section-color(class="hide-on-small-only hide-on-med-only")
                 a(class="btn btn-oow"  href="#" ) Sing Up
                 p(class="text-color") Already a member? <a href="#" class="oow">Log in</a> 
-          |
-          |      
-          <!-- End Header -->   
+          <!-- End Header --> 
+            
+          <!-- start about -->
           .about(id="about")
+            div
+              .img-one 
+                  img(src="img/heart.svg" class="heart" )
+              .img-two
+                  img(src="img/pallown.svg" class="pallown" )
             .container
               .row
-                  div(class="col-lg-5 col-md-12 col-sm-12 about-text")
-                    h2 EVERYTHING YOU NEED TO<br> START YOUR <span class="text-website-color"> WEDDING</span></br> PLANNING (ADVENTURE)
-                    p all your favorites in one place <br>find local professionals <br> find unique registry gift ideas <br> Choose a date
+                  div(class="col-lg-5 col-md-12 col-sm-12 about-text ")
+                    h2 EVERYTHING YOU NEED TO  START YOUR <span class="text-website-color"> WEDDING</span> PLANNING (ADVENTURE)
+                    p all your favorites in one place find local professionals  find unique registry gift ideas Choose a date
 
                   div(class="col-lg-7 col-md-12 col-sm-12 about-image")
-                    img(src="img/about-image.png")
-          <!-- start about -->
-          
+                    img(src="img/about-image.png")          
           <!-- End about -->
+          
+          <!-- start section ideas -->
+          .ideas
+            .container
+              .row
+                div(class="col-lg-5 col-md-12 col-sm-12 ideas-text ")
+                  h2 IDEAS , INSPIRATION <span class="text-website-color">&</span>Concert halls
+                  p collect & organize ideas connect to vendors get wedding tips best places.
+                div(class="col-lg-7 col-md-12 col-sm-12 ideas-img ")
+                  img(src="img/ideas-img.png")
+          <!-- End Section Ideas -->          
+
+                  
+            
           script(src="js/jquery-3.2.1.min.js")
           script(src="js/tether.js")
           script(src="js/bootstrap.min.js")

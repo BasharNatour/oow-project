@@ -1,0 +1,55 @@
+/* Start Ideas */
+.ideas{
+  margin-top:  50px;
+  background: #FAFAFA;
+  min-height: 100vh;
+
+  .ideas-text{
+    padding-top: 250px;
+    p{
+      font-size: 1.8em ;
+      color: #757575;
+      font-weight: 200;
+      padding-top: 15px;
+    }
+  }
+}
+
+.ideas-img img {
+    width: 100%;
+    padding-top:170px;
+    padding-right: 10em;
+}
+
+
+@media(min-width:568px) and (max-width:992px){
+
+    .ideas-img img{
+      padding-top: 50px;
+      padding-bottom: 50px
+
+    }
+    .ideas .ideas-text{
+      padding-top: 50px;
+    }
+  }
+
+@media(max-width:567px){
+  .ideas{
+    min-height: 70vh;
+    .ideas-text{
+      padding-top: 50px;
+      h2{
+        font-size: 1.3em;
+      }
+      p{
+        font-size:  0.95em;
+      }
+    }
+    .ideas-img img{
+      padding-right: 0;
+      padding-top: 25px;
+    }
+  }
+}
+/* End Ideas */

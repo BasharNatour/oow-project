@@ -2,6 +2,10 @@
 @import 'fonts';
 @import 'nav';
 @import 'header';
+@import 'about';
+@import 'ideas';
+
+
 
 /* Global */
 *{
@@ -17,12 +21,13 @@ html,
 body {
    overflow-x: hidden;
    font: 90%/1.6 'Merriweather', serif !important;
-   height: 5000px
+   height: 5000px;
 }
 
 html {
    line-height: 1.5;
    color: rgba(0,0,0,0.87);
+
 }
 
 h1, h2, h3, h4, h5, h6 { line-height: calc(1.1em + 0.5vw);
@@ -75,28 +80,3 @@ h1, h2, h3, h4, h5, h6 { line-height: calc(1.1em + 0.5vw);
 /* css Global */
 
 /* Global */
-
-
-/* start About */
-
-/* End About */
-.about{
-  background-color: #fff;
-  height: 100vh;
-  padding-top: 100px;
-  .about-text{
-    padding-top: 100px;
-  }
-  .about-image img{
-    width: 100%;
-
-  }
-}
-
-.about-text p{
-    font-size: 1.5vw;
-    color: #757575;
-    padding-top: 15px;
-    font-weight: 200;
-
-}

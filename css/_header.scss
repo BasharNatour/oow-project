@@ -21,8 +21,10 @@ min-height:  100vh - 11.1vh;
   }
 }
 
-.oow{font-weight: bold;}
-.oow:hover{
+.ooww{font-weight: bold;
+      color:$mainColor
+}
+.ooww:hover{
   color: $mainColorText;
 }
 

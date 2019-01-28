@@ -9,10 +9,13 @@
   width: 150px;
   position: absolute;
   top: 193vh;
-  right: 6.5vw;
+  right: 5.5vw;
 }
-
-
+.birds{
+  position: absolute;
+  top: 280vh;
+  left: -10px;
+}
 
 
 .about{
@@ -69,7 +72,8 @@
 
 @media(max-width:992px){
   .heart,
-  .pallown{
+  .pallown,
+  .birds{
     display: none;
   }
 }

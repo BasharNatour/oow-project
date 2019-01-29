@@ -22,13 +22,18 @@
 {
   padding-top: 50px;
   width: 100% ;
-
 }
 
 .planning-img-sum{
   padding-top: 70px
 }
 
+.planning-img-one,
+.planning-img-three{
+  h3{
+    padding-top: 25px;
+  }
+}
 
 @media(max-width:567px){
   .planning{
@@ -49,7 +54,7 @@
  .planning-img-three img {
     padding-top: 25px;
     width: 100%;
-    margin-bottom: 25px
+    margin-bottom: 10px
 
   }
 
@@ -58,6 +63,14 @@
       padding-top: 0;
      img{
       display: none;
+    }
+  }
+
+  .planning-img-one,
+  .planning-img-three{
+    h3{
+      font-size: 1em;
+      padding-top: 0;
     }
   }
 }

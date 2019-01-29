@@ -29,6 +29,12 @@ html(lang="en")
                           a(class="nav-link" href="#planning") PLANING
 
                         li(class="nav-item")
+                          a(class="nav-link" href="#subscribe") CONTACT US
+                          
+                        li(class="nav-item")
+                          a(class="nav-link" href="#") CONTACT US
+                            
+                        li(class="nav-item")
                           a(class="nav-link" href="#") CONTACT US
                           
                         li(class="nav-item")
@@ -95,9 +101,25 @@ html(lang="en")
                   a(href="#")
                     img(src="img/Mask Group 5.png")
                   h3(class="text-center") Essential Wedding Planning Tips and Tricks  
-          <!-- End Planing -->          
-
-                  
+          <!-- End Planing -->   
+                 
+          <!-- start Subscribe --> 
+          hr
+          .subscribe(id="subscribe") 
+              .container
+                .row
+                  div(class="col-lg-5 col-md-12 col-sm-12 sub-img")
+                    img(src="img/undraw_newsletter_vovu.svg")
+                  div(class="col-lg-5 offset-lg-2  col-md-12 col-sm-12 sub-content text-center")
+                    h2 SUBSCRIBE
+                    .sub-color(class="hide-on-small-only hide-on-med-only")
+                    form(id="sub-form")
+                      input(type="email" , class="btn-sub", name="email", placeholder="Enter Your Email Address")
+                      button(type="submit" , class="btn-sub") Subscribe Now 
+                    p Subscribe and receive our newsletter to follow the news about the Oow  
+          hr
+          <!-- end Subscribe --> 
+          
             
           script(src="js/jquery-3.2.1.min.js")
           script(src="js/tether.js")

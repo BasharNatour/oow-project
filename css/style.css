@@ -532,6 +532,8 @@ textarea {
   .contact {
     padding-top: 25px;
     text-align: center;
+    min-height: 0;
+    padding-bottom: 25px;
   }
 
   .contact-content h2 {
@@ -549,6 +551,105 @@ textarea {
     height: 40px;
   }
 }
+.footer {
+  padding-top: 50px;
+}
+
+.foot-img img {
+  width: 100%;
+}
+
+.foo-cont {
+  position: relative;
+}
+.foo-cont .show,
+.foo-cont p {
+  position: absolute;
+  bottom: 10px;
+}
+.foo-cont p {
+  margin: 0 390px 50px;
+  color: #fff;
+}
+.foo-cont a {
+  color: #fff;
+}
+.foo-cont a:hover {
+  color: #FF1744;
+  transition: all 0.2s ease-in-out;
+}
+
+.show {
+  display: flex;
+}
+
+.foo-cont .list-terms {
+  display: flex;
+  padding-left: 370px;
+}
+
+.lists {
+  display: flex;
+}
+.lists li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4em;
+}
+
+@media (max-width: 567px) {
+  .footer {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background-color: #FF1744;
+  }
+
+  .foot-para {
+    padding-bottom: 10px;
+  }
+
+  .foot-img img {
+    display: none;
+  }
+
+  .foo-cont {
+    position: none;
+  }
+  .foo-cont p {
+    margin: 0;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+  }
+  .foo-cont .show {
+    display: block;
+    margin: 0;
+  }
+
+  .foo-cont .list-terms {
+    display: block;
+    padding-left: 0;
+  }
+
+  .foo-cont .show, .foo-cont p {
+    position: static;
+  }
+
+  .foo-cont a {
+    color: #fff;
+  }
+  .foo-cont a:hover {
+    color: #000;
+  }
+
+  .lists {
+    justify-content: center;
+  }
+  .lists li {
+    display: inline-block;
+  }
+}
 /* Global */
 * {
   -webkit-box-sizing: border-box;
@@ -562,7 +663,6 @@ html,
 body {
   overflow-x: hidden;
   font: 90%/1.6 "Merriweather", serif !important;
-  height: 5000px;
 }
 
 html {

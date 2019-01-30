@@ -8,7 +8,6 @@
   width: 100%;
 }
 .sub-content{
-  position: relative;
   padding-top: 75px;
   width: 100%;
   h2{
@@ -81,7 +80,8 @@ input::placeholder{
     padding-top:50px;
   }
   .sub-content h2 {
-    padding-bottom: 5px
+    padding-bottom: 5px;
+    font-size: 1.8em
 }
 
   .sub-content input {

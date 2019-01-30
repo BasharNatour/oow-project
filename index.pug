@@ -32,10 +32,10 @@ html(lang="en")
                           a(class="nav-link" href="#subscribe") CONTACT US
                           
                         li(class="nav-item")
-                          a(class="nav-link" href="#") CONTACT US
+                          a(class="nav-link" href="#our-plan") OUR PLAN 
                             
                         li(class="nav-item")
-                          a(class="nav-link" href="#") CONTACT US
+                          a(class="nav-link" href="#contact") CONTACT US
                           
                         li(class="nav-item")
                           a(href="#" role="button" class="btn oow" aria-pressed="true") LOG IN
@@ -120,7 +120,46 @@ html(lang="en")
           hr
           <!-- end Subscribe --> 
           
-            
+          <!-- start About our plan -->
+          .our-plan(id="our-plan")
+            .container
+              .row
+                div(class="col-lg-12 col-md-12 col-sm-12 text-center header-plan")
+                  h2 Wedding Planning Has Never Been Easier
+                  p Sign up for <span class="ooww">Oow</span> and get access to your all-in-one wedding planner.
+                div(class="col-lg-4 col-md-12 col-sm-12 text-center content-plan")
+                  img(src="img/icon-plan/Group 18.svg")
+                  h3(class="main-color") Wedding Vision 
+                  p Define Your Wedding Style and Get Matched With Local vendors.
+
+                div(class="col-lg-4 col-md-12 col-sm-12 text-center content-plan")
+                  img(src="img/icon-plan/screen.svg")
+                  h3(class="main-color") Photographers
+                  p Take Your  photo shoots With Family and Friends.
+    
+                div(class="col-lg-4 col-md-12 col-sm-12 text-center content-plan")
+                  img(src="img/icon-plan/shopping.svg")
+                  h3(class="main-color") Budgeter 
+                  p Get a Personalized Spending Plan Based On Your UniqueBudget.
+          <!-- End About our plan -->
+          
+          <!-- start Contant Us --> 
+          .contact(id="contact")
+            .container
+              .row
+                div(class="col-lg-5 col-md-12 col-sm-12  contact-content")
+                  h2 CONTACT US
+                  .cont-color(class="hide-on-small-only hide-on-med-only")
+                  p Fill in the filed below and we'll get back to you.
+                  form(class="contact-form")
+                    input(type="text" , name="name" , placeholder="Name", class="btn-cont")
+                    input(type="email" , name="email" , placeholder="Email", class="btn-cont")
+                    textarea(class="btn-cont")
+                    button(type="submit" , name="submit") Submit
+                div(class="col-lg-5 offset-lg-2 col-md-12 col-sm-12 cont-img")
+                    img(src="img/undraw_messaging_uok8.svg")    
+          <!-- End CONTACT us -->
+  
           script(src="js/jquery-3.2.1.min.js")
           script(src="js/tether.js")
           script(src="js/bootstrap.min.js")

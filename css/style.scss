@@ -6,6 +6,9 @@
 @import 'ideas';
 @import 'planning';
 @import 'subscribe';
+@import 'our-plain';
+@import 'contact';
+
 
 
 
@@ -53,6 +56,9 @@ h1, h2, h3, h4, h5, h6 { line-height: calc(1.1em + 0.5vw);
    line-height: 110%;
  }
 
+ .main-color{
+   color: #FF1744;
+ }
 
 @media only screen and (min-width: 0) {
   html {

@@ -56,11 +56,6 @@ h1, h2, h3, h4, h5, h6 { line-height: calc(1.1em + 0.5vw);
    line-height: 110%;
  }
 
- .main-color{
-   color: #FF1744;
- }
-
-
 
 @media only screen and (min-width: 0) {
   html {
@@ -93,6 +88,11 @@ h1, h2, h3, h4, h5, h6 { line-height: calc(1.1em + 0.5vw);
   color : $mainColor;
 
 }
+
+.main-color{
+  color: #FF1744;
+}
+
 /* css Global */
 
 /* Global */

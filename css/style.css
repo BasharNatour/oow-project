@@ -56,7 +56,7 @@
 /* End Nav */
 /* start header */
 .header {
-  background-image: url("../img/Home-page/home.png");
+  background-image: url("../img/Home-page/home.jpg");
   background-size: cover;
   min-height: 88.9vh;
 }
@@ -597,7 +597,6 @@ textarea {
   align-items: center;
   padding: 0.4em;
 }
-
 @media (max-width: 567px) {
   .footer {
     padding-top: 25px;

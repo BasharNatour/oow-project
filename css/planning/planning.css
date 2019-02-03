@@ -20,6 +20,15 @@
   max-width: 1080px;
   margin: auto;
 }
+.tips img {
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.plan-two {
+  max-width: 780px;
+  margin: auto;
+}
 
 @media (min-width: 568px) and (max-width: 992px) {
   .under {

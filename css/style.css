@@ -344,7 +344,6 @@
   padding-bottom: 30px;
 }
 .sub-content input {
-  padding-left: 30px;
   margin-bottom: 10px;
   font-weight: bold;
 }
@@ -414,7 +413,6 @@ input::placeholder {
   }
 
   .sub-content input {
-    padding-left: 20px;
     margin-bottom: 5px;
   }
 }
@@ -501,7 +499,7 @@ h2 {
 }
 
 input {
-  padding-left: 30px;
+  padding-left: 15px;
   margin-bottom: 10px;
   font-weight: bold;
 }

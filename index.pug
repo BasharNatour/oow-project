@@ -9,6 +9,7 @@ html(lang="en")
           include include/links
     body
           block pageContent
+            |
             <!-- start nav -->
             nav(class="navbar navbar-toggleable-md navbar-light")
                .container
@@ -41,12 +42,15 @@ html(lang="en")
                             a(class="nav-link" href="#contact" data-value="contact") CONTACT US
                             
                           li(class="nav-item")
-                            a(href="#" role="button" class="btn oow" aria-pressed="true") LOG IN
+                            a(href="login.html" role="button" class="btn oow" aria-pressed="true") LOG IN
                                                       
                           li(class="nav-item")
                             a(href="#" class="btn btn-oow" role="button" aria-pressed="true") SING UP         
+            |
+            |
             <!-- End nav -->
-          
+            |
+            |
             <!-- start header -->
             .header
               .container
@@ -55,8 +59,11 @@ html(lang="en")
                   .section-color(class="hide-on-small-only hide-on-med-only")
                   a(class="btn btn-oow"  href="#" ) Sing Up
                   p(class="text-color") Already a member? <a href="#" class="ooww">Log in</a> 
-            <!-- End Header --> 
-              
+            |
+            |
+            <!-- End Header -->
+            |
+            |
             <!-- start about -->
             .about(id="about")
               div
@@ -74,8 +81,11 @@ html(lang="en")
 
                     div(class="col-lg-7 col-md-12 col-sm-12 about-image")
                       img(src="img/Home-page/about-image.png")          
+            |
+            |
             <!-- End about -->
-            
+            |
+            |
             <!-- start section ideas -->
             .ideas(id="ideas")
               .container
@@ -85,8 +95,11 @@ html(lang="en")
                     p collect & organize ideas connect to vendors get wedding tips best places.
                   div(class="col-lg-7 col-md-12 col-sm-12 ideas-img ")
                     img(src="img/Home-page/ideas-img.png")
+            |
+            |
             <!-- End Section Ideas --> 
-            
+            |
+            |
             <!-- Start planing -->
             .planning(id="planning")
               .container
@@ -104,8 +117,11 @@ html(lang="en")
                     a(href="plan2.html")
                       img(src="img/Home-page/Mask Group 5.png")
                     h3(class="text-center") Essential Wedding Planning Tips and Tricks  
+            |
+            |
             <!-- End Planing -->   
-                   
+            |
+            |
             <!-- start Subscribe --> 
             hr
             .subscribe(id="subscribe") 
@@ -121,8 +137,11 @@ html(lang="en")
                         button(type="submit" , class="btn-sub") Subscribe Now 
                       p Subscribe and receive our newsletter to follow the news about the Oow  
             hr
+            |
+            |
             <!-- end Subscribe --> 
-            
+            |
+            |
             <!-- start About our plan -->
             .our-plan(id="our-plan")
               .container
@@ -144,8 +163,11 @@ html(lang="en")
                     img(src="img/Home-page/icon-plan/shopping.svg")
                     h3(class="main-color") Budgeter 
                     p Get a Personalized Spending Plan Based On Your UniqueBudget.
+            |
+            |
             <!-- End About our plan -->
-            
+            |
+            |
             <!-- start Contant Us --> 
             .contact(id="contact")
               .container
@@ -161,8 +183,11 @@ html(lang="en")
                       button(type="submit" , name="submit") Submit
                   div(class="col-lg-5 offset-lg-2 col-md-12 col-sm-12 cont-img")
                       img(src="img/Home-page/undraw_messaging_uok8.svg")    
+            |
+            |
             <!-- End CONTACT us -->
-            
+            |
+            |
             <!-- start footer --> 
             .footer
               .row
@@ -188,6 +213,8 @@ html(lang="en")
                           li
                             a(href="#")
                               <i class="fab fa-instagram fa-2x"></i>      
+            |
+            |
             <!-- End footer -->
             
           

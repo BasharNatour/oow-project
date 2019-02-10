@@ -12,6 +12,10 @@
 .right p a {
   color: #000;
   text-decoration: underline;
+  font-weight: bold;
+}
+.right p a:hover {
+  color: #FF1744;
 }
 .right input {
   margin-bottom: 10px;
@@ -45,6 +49,12 @@
   border-radius: 10px 0 0 10px;
   background-color: #FF1744;
   color: #fff;
+}
+
+.btn-two:hover {
+  background-color: #FF1744;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
 }
 
 .btn-two {
@@ -85,6 +95,13 @@
   position: absolute;
   top: -400px;
   left: -230px;
+}
+
+.forget {
+  padding-top: 20px;
+}
+.forget a {
+  color: #141414;
 }
 
 @media (max-width: 567px) {
@@ -132,6 +149,13 @@
   .btn-two,
 .btn-one {
     border-radius: 10px;
+  }
+
+  .forget {
+    padding-top: 0;
+  }
+  .forget a {
+    font-size: 0.85em;
   }
 }
 @media (min-width: 567px) and (max-width: 992px) {

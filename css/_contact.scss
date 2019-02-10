@@ -16,10 +16,15 @@ h2{
 
 .btn-cont{
   width: 400px;
-  height:50px;
-  border-radius:10px;
+  height: 50px;
+  padding: 0px 10px;
+  cursor: pointer;
+  color: #7b7b7b;
   border: none;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  background: #fff;
+
 }
 
 .contact-content{
@@ -45,7 +50,7 @@ h2{
 
   textarea {
     min-height : 25vh;
-    padding-left: 30px;
+    padding-left: 15px;
 
 
   }

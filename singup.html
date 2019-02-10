@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sing In</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/singup/singup.css">
+  </head>
+  <body>
+    <!-- start Nav -->
+    <nav class="navbar navbar-toggleable-md navbar-light">
+      <div class="container">
+        
+        <a class="navbar-brand" href="index.html"><img src="img/Home-page/logo.png"></a>
+      </div>
+    </nav>
+    <!-- End Nav -->
+    <!-- start SingUp -->
+    <div class="singup">
+      <div class="container">
+        <div class="row">
+          <div class="left-singup col-lg-6 col-md-12 col-sm-12 text-center">
+            <h1>Sing Up</h1>
+            <p>Already a member of Oow?  <a href="login.html"> Log In</a></p>
+            <form>
+              <div class="form-div">
+                <input class="half-btn" type="text" name="firstname" placeholder="First Name" required>
+                <input class="half-btn" type="text" name="lastname" placeholder="Last Name" required>
+              </div>
+              <div class="form-div">
+                <input class="btn-sub" type="email" id="email" name="email" placeholder="Email Address" required>
+              </div>
+              <div class="form-div">
+                <select>
+                  <option>Cairo</option>
+                  <option>Alex</option>
+                  <option>Select a country</option>
+                  <option>Select a country</option>
+                </select>
+              </div>
+              <div class="form-div">
+                <input class="btn-sub" type="password" placeholder="Create password" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?!.*s).*$" title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required>
+              </div>
+              <div class="form-div flex"> 
+                <div>
+                  <input input type="radio" id="contactChoice1" name="contact">
+                  <label for="contactChoice1">I want to marry</label>
+                </div>
+                <div> 
+                  <input input type="radio" id="contactChoice2" name="contact">
+                  <label for="contactChoice2">I want to work</label>
+                </div>
+              </div>
+              <p class="upperbutton">I Want To:</p>
+              <div class="form-div">
+                <input class="type-work" type="checkbox" id="cb1">
+                <label for="cb1">Send me wedding ideas, tips, and special offers!             </label>
+              </div>
+              <button class=" submit" type="submit">SingUp   </button>
+            </form>
+          </div>
+          <div class="right-singup col-lg-6 col-md-12 col-sm-12 ">
+            <div class="img-one"><img src="img/sing/Path 219.svg"></div>
+            <div class="text-center"> 
+              <h1>Your personal wedding plan starts now  </h1>
+              <p>Advice, tools, and the best local vendors to have a wedding that's uniquely you (cue the confetti!)</p>
+            </div>
+            <div class="img-two"><img src="img/sing/undraw_wedding_t1yl (1).svg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/tether.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fontawesome-all.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

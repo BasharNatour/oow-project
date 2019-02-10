@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/singin/singin.css">
+    <link rel="stylesheet" href="css/login/singin.css">
   </head>
   <body>
     <!-- start Nav -->
@@ -37,13 +37,16 @@
           </div>
           <div class="right col-lg-6 col-md-12 col-sm-12 text-center">
             <h1>Login</h1>
-            <p>Create New <a href="#"> Account </a></p>
-            <input class="btn-sub" type="email" name="email" placeholder="Enter Your Email Address">
-            <input class="btn-sub" type="password" placeholder="Enter Your password">
-            <div class="form">
-              <button class="btn-one" type="submit" name="submit">Login As Merry</button>
-              <button class="btn-two" type="submit" name="submit">Login As work</button>
-            </div>
+            <p>Create New <a href="singup.html"> Account </a></p>
+            <form>
+              <input class="btn-sub" type="email" id="email" name="email" placeholder="Enter Your Email Address" required>
+              <input class="btn-sub" type="password" id="password" placeholder="Enter Your password" minlength="8" pattern="^(?=.*d)(?=.*[a-z])(?=.*[A-Z])(?!.*s).*$" required>
+              <div class="form">
+                <button class="btn-one" type="submit" name="submit">Login As Merry</button>
+                <button class="btn-two" type="submit" name="submit">Login As work</button>
+              </div>
+            </form>
+            <div class="forget"><a href="#">Forget Password    </a></div>
           </div>
           <div class="underfoo">
             <div class="group">     

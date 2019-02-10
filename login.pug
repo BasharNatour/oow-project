@@ -1,6 +1,6 @@
 extends index
 block append linksCss  
-  link(rel="stylesheet" , href="css/singin/singin.css")
+  link(rel="stylesheet" , href="css/login/singin.css")
 
 block pageTitle
   title Sing In
@@ -45,12 +45,15 @@ block pageContent
 
         .right(class="col-lg-6 col-md-12 col-sm-12 text-center")
           h1 Login
-          p Create New <a href="#"> Account </a>
-          input(type="email" , class="btn-sub", name="email", placeholder="Enter Your Email Address")
-          input(type="password" , class="btn-sub" , placeholder="Enter Your password")
-          .form
-            button(type="submit" , name="submit", class="btn-one") Login As Merry
-            button(type="submit" , name="submit", class="btn-two") Login As work
+          p Create New <a href="singup.html"> Account </a>
+          form
+            input(type="email"  ,id="email" , class="btn-sub", name="email", placeholder="Enter Your Email Address" required)
+            input(type="password" , id="password"  , class="btn-sub" , placeholder="Enter Your password" minlength="8" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"  required)
+            div(class="form")
+              button(type="submit" , name="submit", class="btn-one") Login As Merry
+              button(type="submit" , name="submit", class="btn-two") Login As work
+          .forget
+            a(href="#") Forget Password    
         .underfoo
           .group      
             .papple-one 

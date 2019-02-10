@@ -13,11 +13,16 @@
     a{
       color: #000;
       text-decoration: underline;
+      font-weight: bold;
+      &:hover{
+        color:#FF1744;
+      }
     }
   }
   input{
     margin-bottom: 10px;
   }
+
   .form{
     display: flex;
     flex-direction: row;
@@ -52,8 +57,14 @@
   border-radius:10px 0 0 10px ;
   background-color: #FF1744;
   color: #fff;
-
 }
+
+.btn-two:hover {
+  background-color: #FF1744;
+  color: #fff;
+  transition: all .2s ease-in-out
+}
+
 
 .btn-two{
        border-radius:0 10px 10px  0 ;
@@ -99,13 +110,18 @@
   }
 }
 
+.forget{
+  padding-top: 20px;
+  a{
+    color: #141414
+
+  }
+}
 
 
 @media(max-width:567px){
   .navbar-brand img {
-
     padding-right: 0em;
-
 }
   .singin {
     padding-top: 15px;
@@ -144,6 +160,12 @@
   .btn-two,
   .btn-one{
          border-radius:10px;
+  }
+  .forget{
+    padding-top: 0;
+    a{
+      font-size:  .85em
+    }
   }
 
 }

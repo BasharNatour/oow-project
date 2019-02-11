@@ -25,39 +25,49 @@
           <div class="left-singup col-lg-6 col-md-12 col-sm-12 text-center">
             <h1>Sing Up</h1>
             <p>Already a member of Oow?  <a href="login.html"> Log In</a></p>
-            <form>
-              <div class="form-div">
-                <input class="half-btn" type="text" name="firstname" placeholder="First Name" required>
-                <input class="half-btn" type="text" name="lastname" placeholder="Last Name" required>
+            <form id="signup-form">
+              <div class="input-field">
+                <input class="half-btn" type="text" id="firstname" name="firstname" placeholder="First Name" required>
+                <input class="half-btn" type="text" id="lastname" name="lastname" placeholder="Last Name" required>
               </div>
-              <div class="form-div">
-                <input class="btn-sub" type="email" id="email" name="email" placeholder="Email Address" required>
+              <div class="input-field">
+                <input class="btn-sub" type="email" id="signup-email" name="email" placeholder="Email Address" required>
               </div>
-              <div class="form-div">
+              <div class="input-field">
+                <input class="btn-sub" type="password" id="signup-password" placeholder="Create password" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?!.*s).*$" title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required>
+              </div>
+              <div class="input-field">
                 <select>
+                  <option>Alexandria</option>
+                  <option>Aswan</option>
+                  <option>Asyut</option>
                   <option>Cairo</option>
-                  <option>Alex</option>
-                  <option>Select a country</option>
-                  <option>Select a country</option>
+                  <option>Beni Suef</option>
+                  <option>Damietta</option>
+                  <option>Faiyum</option>
+                  <option>Giza</option>
+                  <option>Ismailia</option>
+                  <option>Kafr El Sheikh</option>
+                  <option>Luxor</option>
+                  <option>Minya</option>
+                  <option>Red Sea</option>
+                  <option>Sohag</option>
                 </select>
               </div>
-              <div class="form-div">
-                <input class="btn-sub" type="password" placeholder="Create password" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?!.*s).*$" title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required>
-              </div>
-              <div class="form-div flex"> 
+              <div class="input-field flex"> 
                 <div>
-                  <input input type="radio" id="contactChoice1" name="contact">
-                  <label for="contactChoice1">I want to marry</label>
+                  <input input type="radio" id="singup-radio" name="contact" required>
+                  <label for="singup-radio">I want to marry</label>
                 </div>
                 <div> 
-                  <input input type="radio" id="contactChoice2" name="contact">
-                  <label for="contactChoice2">I want to work</label>
+                  <input input type="radio" id="singup-radio" name="contact">
+                  <label for="singup-radio">I want to work</label>
                 </div>
               </div>
               <p class="upperbutton">I Want To:</p>
-              <div class="form-div">
-                <input class="type-work" type="checkbox" id="cb1">
-                <label for="cb1">Send me wedding ideas, tips, and special offers!             </label>
+              <div class="input-field">
+                <input class="type-work" type="checkbox" id="singup-checkbox" required>
+                <label for="singup-checkbox">Send me wedding ideas, tips, and special offers!             </label>
               </div>
               <button class=" submit" type="submit">SingUp   </button>
             </form>

@@ -28,33 +28,42 @@ block pageContent
           h1 Sing Up
           p Already a member of Oow?  <a href="login.html"> Log In</a>
           
-          form
-            .form-div
-              input(type="text" , name="firstname" , placeholder="First Name" , class="half-btn" , required)
-              input(type="text" , name="lastname" , placeholder="Last Name" , class="half-btn", required )
-            .form-div
-              input(type="email" , id="email" , class="btn-sub", name="email", placeholder="Email Address" required)
-            .form-div
+          form(id="signup-form")
+            .input-field
+              input(type="text" , id="firstname", name="firstname" , placeholder="First Name" , class="half-btn" , required)
+              input(type="text" , id="lastname" , name="lastname" , placeholder="Last Name" , class="half-btn", required )
+            .input-field
+              input(type="email" , id="signup-email" , class="btn-sub", name="email", placeholder="Email Address" required)
+            .input-field
+              input(type="password" , id="signup-password" ,  class="btn-sub" , placeholder="Create password" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required)
+            .input-field
               select
+                  option Alexandria
+                  option Aswan
+                  option Asyut
                   option Cairo
-                  option Alex
-                  option Select a country
-                  option Select a country
-            .form-div
-              input(type="password" , class="btn-sub" , placeholder="Create password" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required)
-            .form-div(class="flex")  
+                  option Beni Suef
+                  option Damietta
+                  option Faiyum
+                  option Giza
+                  option Ismailia
+                  option Kafr El Sheikh
+                  option Luxor
+                  option Minya
+                  option Red Sea
+                  option Sohag
+            .input-field(class="flex")  
               div
-                input(input type="radio" id="contactChoice1" name="contact"  )
-                label(for="contactChoice1") I want to marry
+                input(input type="radio" id="singup-radio" name="contact" required  )
+                label(for="singup-radio") I want to marry
               div  
-                input(input type="radio" id="contactChoice2" name="contact"   )
-                label(for="contactChoice2") I want to work
+                input(input type="radio" id="singup-radio" name="contact"   )
+                label(for="singup-radio") I want to work
 
             p(class="upperbutton") I Want To:
-            .form-div
-              input(type="checkbox" id="cb1" class="type-work")
-              label(for="cb1" ) Send me wedding ideas, tips, and special offers!             
-
+            .input-field
+              input(type="checkbox" id="singup-checkbox" class="type-work" required)
+              label(for="singup-checkbox" ) Send me wedding ideas, tips, and special offers!             
             button(type="submit" class=" submit") SingUp   
                          
         .right-singup(class="col-lg-6 col-md-12 col-sm-12 ")
